@@ -121,9 +121,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
 
         vSeeds.push_back(CDNSSeedData("tesseract.com", "seed.tesseract.com"));
-        vSeeds.push_back(CDNSSeedData("multidoge.org", "seed.multidoge.org"));
-        vSeeds.push_back(CDNSSeedData("multidoge.org", "seed2.multidoge.org"));
-        vSeeds.push_back(CDNSSeedData("doger.tesseract.com", "seed.doger.tesseract.com"));
+        vSeeds.push_back(CDNSSeedData("multitesseract.org", "seed.multitesseract.org"));
+        vSeeds.push_back(CDNSSeedData("multitesseract.org", "seed2.multitesseract.org"));
+        vSeeds.push_back(CDNSSeedData("tesseractr.tesseract.com", "seed.tesseractr.tesseract.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);  // 0x1e
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,22);  // 0x16

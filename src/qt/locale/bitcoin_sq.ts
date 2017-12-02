@@ -220,7 +220,7 @@
     </message>
     <message>
         <source>&amp;About Tesseract Core</source>
-        <translation>Rreth Berthames Dogekoin</translation>
+        <translation>Rreth Berthames Tesseractkoin</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -363,7 +363,7 @@
     </message>
     <message>
         <source>About Tesseract Core</source>
-        <translation>Rreth Berthames Dogekoin</translation>
+        <translation>Rreth Berthames Tesseractkoin</translation>
     </message>
     </context>
 <context>
