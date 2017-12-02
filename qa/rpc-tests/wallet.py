@@ -8,8 +8,8 @@
 # Does the following:
 #   a) creates 3 nodes, with an empty chain (no blocks).
 #   b) node0 mines a block
-#   c) node1 mines 61 blocks, so now nodes 0 and 1 have 500.000 doge, node2 has none. 
-#   d) node0 sends 210.000 doge to node2, in two transactions (110.000 doge, then 100.000 doge).
+#   c) node1 mines 61 blocks, so now nodes 0 and 1 have 500.000 Tesseract, node2 has none. 
+#   d) node0 sends 210.000 Tesseract to node2, in two transactions (110.000 Tesseract, then 100.000 Tesseract).
 #   e) node0 mines a block, collects the fee on the second transaction
 #   f) node1 mines 30 blocks, to mature node0's just-mined block
 #   g) check that node0 has 1.000.000-210.000, node2 has 210.000
@@ -69,7 +69,7 @@ class WalletTest (BitcoinTestFramework):
         self.nodes[1].generate(60)
         self.sync_all()
 
-        # node0 should end up with 1.000.000 doge in block rewards plus fees, but
+        # node0 should end up with 1.000.000 Tesseract in block rewards plus fees, but
         # minus the 210.000 plus fees sent to node2
         assert_equal(self.nodes[0].getbalance(), 1000000-210000)
         assert_equal(self.nodes[2].getbalance(), 210000)
