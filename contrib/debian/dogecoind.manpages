@@ -1,3 +1,3 @@
-debian/manpages/dogecoind.1
-debian/manpages/dogecoin.conf.5
-debian/manpages/dogecoin-cli.1
+debian/manpages/tesseractd.1
+debian/manpages/tesseract.conf.5
+debian/manpages/tesseract-cli.1

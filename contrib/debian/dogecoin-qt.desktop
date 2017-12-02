@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Dogecoin
-Comment=Dogecoin P2P Cryptocurrency
-Comment[fr]=Dogecoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Dogecoin, eşten eşe kriptografik sanal para birimi
-Exec=dogecoin-qt %u
+Name=Tesseract
+Comment=Tesseract P2P Cryptocurrency
+Comment[fr]=Tesseract, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Tesseract, eşten eşe kriptografik sanal para birimi
+Exec=tesseract-qt %u
 Terminal=false
 Type=Application
-Icon=dogecoin128
-MimeType=x-scheme-handler/dogecoin;
+Icon=tesseract128
+MimeType=x-scheme-handler/tesseract;
 Categories=Office;Finance;

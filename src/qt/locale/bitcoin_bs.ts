@@ -11,12 +11,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Tesseract</source>
+        <translation>Tesseract</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>Tesseract Core</source>
+        <translation>Tesseract Jezrga</translation>
     </message>
     </context>
 <context>
@@ -34,15 +34,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>Tesseract Core</source>
+        <translation>Tesseract Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>Tesseract Core</source>
+        <translation>Tesseract Jezrga</translation>
     </message>
     </context>
 <context>
@@ -109,8 +109,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Jezrga</translation>
+        <source>Tesseract Core</source>
+        <translation>Tesseract Jezrga</translation>
     </message>
     </context>
 <context>

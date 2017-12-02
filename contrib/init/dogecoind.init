@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  dogecoind The dogecoin core server.
+#  tesseractd The tesseract core server.
 #
 #
 # chkconfig: 345 80 20
-# description: dogecoind
-# processname: dogecoind
+# description: tesseractd
+# processname: tesseractd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/dogecoind, see below
-if [ -f /etc/sysconfig/dogecoind ]; then
-        . /etc/sysconfig/dogecoind
+# you can override defaults in /etc/sysconfig/tesseractd, see below
+if [ -f /etc/sysconfig/tesseractd ]; then
+        . /etc/sysconfig/tesseractd
 fi
 
 RETVAL=0
 
-prog=dogecoind
-# you can override the lockfile via DOGECOIND_LOCKFILE in /etc/sysconfig/dogecoind
-lockfile=${DOGECOIND_LOCKFILE-/var/lock/subsys/dogecoind}
+prog=tesseractd
+# you can override the lockfile via TSCTCOIND_LOCKFILE in /etc/sysconfig/tesseractd
+lockfile=${TSCTCOIND_LOCKFILE-/var/lock/subsys/tesseractd}
 
-# dogecoind defaults to /usr/bin/dogecoind, override with DOGECOIND_BIN
-dogecoind=${DOGECOIND_BIN-/usr/bin/dogecoind}
+# tesseractd defaults to /usr/bin/tesseractd, override with TSCTCOIND_BIN
+tesseractd=${TSCTCOIND_BIN-/usr/bin/tesseractd}
 
-# dogecoind opts default to -disablewallet, override with DOGECOIND_OPTS
-dogecoind_opts=${DOGECOIND_OPTS--disablewallet}
+# tesseractd opts default to -disablewallet, override with TSCTCOIND_OPTS
+tesseractd_opts=${TSCTCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $dogecoind $dogecoind_opts
+    daemon $DAEMONOPTS $tesseractd $tesseractd_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

@@ -1,11 +1,11 @@
 --- 
-name: dogecoin
+name: tesseract
 urls:
-- http://dogecoin.com/dogecoin-latest-win32-gitian.zip
+- http://tesseract.com/tesseract-latest-win32-gitian.zip
 rss:
 - url: 
   xpath: //item/link/text()
-  pattern: dogecoin-\d+.\d+.\d+-win32-gitian.zip
+  pattern: tesseract-\d+.\d+.\d+-win32-gitian.zip
 signers:
   90DC2AC256201AD9377E15049142E5F7E533CE3B:
     weight: 40

@@ -62,12 +62,12 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones de Dogecoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
+        <source>These are your Tesseract addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de Tesseract para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones Dogecoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
+        <source>These are your Tesseract addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones Tesseract para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -148,8 +148,8 @@
         <translation>Confirmar la encriptación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCTCOINS&lt;/b&gt;!</source>
+        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS TSCTCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -275,8 +275,8 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Enviar monedas a una dirección Dogecoin</translation>
+        <source>Send coins to a Tesseract address</source>
+        <translation>Enviar monedas a una dirección Tesseract</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -315,16 +315,16 @@
         <translation>Pestañas</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>nucleo Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>nucleo Tesseract</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>opciones de la &amp;Linea de comandos</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Mostrar mensaje de ayuda del nucleo de Dogecoin para optener una lista con los posibles comandos  de Dogecoin</translation>
+        <source>Show the Tesseract Core help message to get a list with possible Tesseract command-line options</source>
+        <translation>Mostrar mensaje de ayuda del nucleo de Tesseract para optener una lista con los posibles comandos  de Tesseract</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -474,8 +474,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>nucleo Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>nucleo Tesseract</translation>
     </message>
     <message>
         <source>version</source>
@@ -486,8 +486,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Acerca de Dogecoin Core</translation>
+        <source>About Tesseract Core</source>
+        <translation>Acerca de Tesseract Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -501,8 +501,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>nucleo Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>nucleo Tesseract</translation>
     </message>
     </context>
 <context>
@@ -552,8 +552,8 @@
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Dogecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tesseract network.</source>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Tesseract.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -693,8 +693,8 @@
         <translation>¡La transación fue rechazada! Esto puede ocurrir si algunas de tus monedas en tu cartera han sido gastadas, al igual que si usas una cartera copiada y la monedas fueron gastadas en la copia pero no se marcaron como gastadas.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Advertencia: Dirección de Dogecoin invalida</translation>
+        <source>Warning: Invalid Tesseract address</source>
+        <translation>Advertencia: Dirección de Tesseract invalida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -755,8 +755,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Apagando el nucleo de Dogecoin...</translation>
+        <source>Tesseract Core is shutting down...</source>
+        <translation>Apagando el nucleo de Tesseract...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -781,12 +781,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>nucleo Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>nucleo Tesseract</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Los desarrolladores de Dogecoin Core</translation>
+        <source>The Tesseract Core developers</source>
+        <translation>Los desarrolladores de Tesseract Core</translation>
     </message>
     </context>
 <context>

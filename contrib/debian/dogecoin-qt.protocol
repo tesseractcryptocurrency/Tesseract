@@ -1,6 +1,6 @@
 [Protocol]
-exec=dogecoin-qt '%u'
-protocol=dogecoin
+exec=tesseract-qt '%u'
+protocol=tesseract
 input=none
 output=none
 helper=true

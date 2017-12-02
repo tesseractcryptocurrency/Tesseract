@@ -179,8 +179,8 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Tesseract</source>
+        <translation>Tesseract</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -215,11 +215,11 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Berthama Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>Berthama Tesseract</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
+        <source>&amp;About Tesseract Core</source>
         <translation>Rreth Berthames Dogekoin</translation>
     </message>
     <message>
@@ -354,15 +354,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Berthama Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>Berthama Tesseract</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versioni</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
+        <source>About Tesseract Core</source>
         <translation>Rreth Berthames Dogekoin</translation>
     </message>
     </context>
@@ -373,12 +373,12 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Miresevini ne Berthamen Dogecoin</translation>
+        <source>Welcome to Tesseract Core.</source>
+        <translation>Miresevini ne Berthamen Tesseract</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Berthama Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>Berthama Tesseract</translation>
     </message>
     <message>
         <source>Error</source>
@@ -565,8 +565,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Berthama Dogecoin</translation>
+        <source>Tesseract Core</source>
+        <translation>Berthama Tesseract</translation>
     </message>
     <message>
         <source>[testnet]</source>
